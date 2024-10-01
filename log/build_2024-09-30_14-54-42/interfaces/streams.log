@@ -1,0 +1,222 @@
+[0.013s] Invoking command in '/home/sebas/ros_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/sebas/ros_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/sebas/ros_ws/install/interfaces
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.310s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.410s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.410s] -- Detecting CXX compile features
+[0.411s] -- Detecting CXX compile features - done
+[0.420s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.587s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.692s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.083s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.540s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.566s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.566s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.566s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.588s] -- Found PythonExtra: .so  
+[1.633s] -- Configuring done
+[1.662s] -- Generating done
+[1.664s] -- Build files have been written to: /home/sebas/ros_ws/build/interfaces
+[1.671s] Invoked command in '/home/sebas/ros_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/sebas/ros_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/sebas/ros_ws/install/interfaces
+[1.672s] Invoking command in '/home/sebas/ros_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sebas/ros_ws/build/interfaces -- -j4 -l4
+[1.714s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.729s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.742s] [  6%] Built target ament_cmake_python_copy_interfaces
+[2.007s] [  6%] Built target interfaces__cpp
+[2.024s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.024s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.126s] running egg_info
+[2.127s] creating interfaces.egg-info
+[2.127s] writing interfaces.egg-info/PKG-INFO
+[2.129s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[2.130s] writing top-level names to interfaces.egg-info/top_level.txt
+[2.130s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.135s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.135s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.182s] [ 12%] Built target ament_cmake_python_build_interfaces_egg
+[2.197s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.218s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/example__functions.c.o[0m
+[2.294s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.348s] [ 22%] Built target interfaces__rosidl_generator_c
+[2.363s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.433s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/example__type_support.cpp.o[0m
+[2.474s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/example__type_support.cpp.o[0m
+[2.615s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/example__type_support.cpp.o[0m
+[2.805s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/example__type_support_c.cpp.o[0m
+[3.078s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[3.087s] [ 45%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.141s] [ 48%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.149s] [ 48%] Built target interfaces__rosidl_typesupport_cpp
+[3.157s] [ 48%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[3.165s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.172s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.292s] [ 54%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[3.357s] [ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.475s] [ 58%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[3.527s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/example__type_support.cpp.o[0m
+[3.569s] [ 64%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[3.606s] [ 67%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/example__type_support.c.o[0m
+[3.612s] [ 67%] Built target interfaces__rosidl_typesupport_c
+[3.641s] [ 70%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[3.672s] [ 70%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.692s] [ 70%] Built target interfaces
+[3.713s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.010s] [ 74%] Built target interfaces__py
+[4.031s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_example_s.c.o[0m
+[4.136s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[4.176s] [ 80%] Built target interfaces__rosidl_generator_py
+[4.198s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.205s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.205s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.304s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.341s] [ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[4.357s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.359s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.392s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[4.392s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.404s] Invoked command in '/home/sebas/ros_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/sebas/ros_ws/build/interfaces -- -j4 -l4
+[4.465s] Invoking command in '/home/sebas/ros_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/sebas/ros_ws/build/interfaces
+[4.474s] -- Install configuration: ""
+[4.474s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[4.474s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces
+[4.474s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.474s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.474s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__type_support.h
+[4.474s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__struct.h
+[4.475s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__functions.c
+[4.475s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__functions.h
+[4.475s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.475s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/example.h
+[4.475s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[4.475s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[4.476s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[4.476s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[4.476s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces
+[4.476s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.477s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.477s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.477s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__rosidl_typesupport_fastrtps_c.h
+[4.477s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[4.477s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.478s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces
+[4.478s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.478s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.478s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__type_support.c
+[4.478s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__rosidl_typesupport_introspection_c.h
+[4.478s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.478s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[4.479s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.479s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[4.479s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[4.479s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces
+[4.480s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.480s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/example.hpp
+[4.480s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.480s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__traits.hpp
+[4.480s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__builder.hpp
+[4.480s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__struct.hpp
+[4.481s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces
+[4.481s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.481s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.481s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.481s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[4.481s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__rosidl_typesupport_fastrtps_cpp.hpp
+[4.481s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.482s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.482s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces
+[4.482s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.482s] -- Up-to-date: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.482s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__type_support.cpp
+[4.482s] -- Installing: /home/sebas/ros_ws/install/interfaces/include/interfaces/interfaces/msg/detail/example__rosidl_typesupport_introspection_cpp.hpp
+[4.482s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[4.483s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.483s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[4.483s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[4.483s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[4.483s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[4.484s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[4.484s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.484s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.484s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.484s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.484s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[4.485s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.485s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.485s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[4.485s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.485s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[4.486s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[4.486s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.486s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[4.486s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_example_s.c
+[4.486s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[4.486s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_example.py
+[4.487s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.520s] Listing '/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[4.520s] Compiling '/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[4.520s] Listing '/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[4.520s] Compiling '/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[4.520s] Compiling '/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_example.py'...
+[4.525s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.526s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.526s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.526s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.526s] -- Installing: /home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.527s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.527s] -- Installing: /home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[4.527s] -- Set runtime path of "/home/sebas/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[4.527s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/msg/Example.idl
+[4.528s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/msg/Example.msg
+[4.528s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[4.528s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[4.528s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[4.528s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[4.528s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/path.sh
+[4.529s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/environment/path.dsv
+[4.529s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/local_setup.bash
+[4.529s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/local_setup.sh
+[4.529s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/local_setup.zsh
+[4.529s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/local_setup.dsv
+[4.529s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/package.dsv
+[4.530s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[4.530s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[4.530s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.530s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.530s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.530s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.531s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.531s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[4.531s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.531s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[4.531s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.531s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.532s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.532s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.532s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[4.532s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.532s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[4.532s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.533s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[4.533s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.533s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.533s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.533s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.534s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.534s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.534s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[4.534s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[4.534s] -- Installing: /home/sebas/ros_ws/install/interfaces/share/interfaces/package.xml
+[4.537s] Invoked command in '/home/sebas/ros_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/sebas/ros_ws/build/interfaces

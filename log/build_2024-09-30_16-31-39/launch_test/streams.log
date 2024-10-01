@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/sebas/ros_ws/build/launch_test': AMENT_PREFIX_PATH=/home/sebas/ros_ws/install/test_gps:/home/sebas/ros_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces:/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/sebas/ros_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages:/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sebas/ros_ws/build/launch_test -- -j4 -l4
+[0.051s] Invoked command in '/home/sebas/ros_ws/build/launch_test' returned '0': AMENT_PREFIX_PATH=/home/sebas/ros_ws/install/test_gps:/home/sebas/ros_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces:/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/sebas/ros_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages:/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sebas/ros_ws/build/launch_test -- -j4 -l4
+[0.075s] Invoking command in '/home/sebas/ros_ws/build/launch_test': AMENT_PREFIX_PATH=/home/sebas/ros_ws/install/test_gps:/home/sebas/ros_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces:/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/sebas/ros_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages:/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sebas/ros_ws/build/launch_test
+[0.083s] -- Install configuration: ""
+[0.083s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/launch
+[0.083s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/launch/launch.launch.py
+[0.083s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/ament_index/resource_index/package_run_dependencies/launch_test
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/ament_index/resource_index/parent_prefix_path/launch_test
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/environment/path.sh
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/environment/path.dsv
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/local_setup.bash
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/local_setup.sh
+[0.084s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/local_setup.zsh
+[0.085s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/local_setup.dsv
+[0.085s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/package.dsv
+[0.085s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/ament_index/resource_index/packages/launch_test
+[0.085s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/cmake/launch_testConfig.cmake
+[0.085s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/cmake/launch_testConfig-version.cmake
+[0.085s] -- Up-to-date: /home/sebas/ros_ws/install/launch_test/share/launch_test/package.xml
+[0.087s] Invoked command in '/home/sebas/ros_ws/build/launch_test' returned '0': AMENT_PREFIX_PATH=/home/sebas/ros_ws/install/test_gps:/home/sebas/ros_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces:/home/sebas/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/sebas/ros_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages:/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sebas/ros_ws/build/launch_test

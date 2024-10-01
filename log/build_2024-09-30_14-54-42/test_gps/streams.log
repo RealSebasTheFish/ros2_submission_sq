@@ -1,0 +1,41 @@
+[0.604s] Invoking command in '/home/sebas/ros_ws/src/testing/test_gps': AMENT_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces LD_LIBRARY_PATH=/home/sebas/ros_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/ros_ws/build/test_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages:/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/test_gps build --build-base /home/sebas/ros_ws/build/test_gps/build install --record /home/sebas/ros_ws/build/test_gps/install.log --single-version-externally-managed install_data
+[0.831s] running egg_info
+[0.832s] creating ../../../build/test_gps/test_gps.egg-info
+[0.832s] writing ../../../build/test_gps/test_gps.egg-info/PKG-INFO
+[0.833s] writing dependency_links to ../../../build/test_gps/test_gps.egg-info/dependency_links.txt
+[0.833s] writing entry points to ../../../build/test_gps/test_gps.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../../build/test_gps/test_gps.egg-info/requires.txt
+[0.833s] writing top-level names to ../../../build/test_gps/test_gps.egg-info/top_level.txt
+[0.833s] writing manifest file '../../../build/test_gps/test_gps.egg-info/SOURCES.txt'
+[0.836s] reading manifest file '../../../build/test_gps/test_gps.egg-info/SOURCES.txt'
+[0.836s] writing manifest file '../../../build/test_gps/test_gps.egg-info/SOURCES.txt'
+[0.836s] running build
+[0.837s] running build_py
+[0.837s] creating /home/sebas/ros_ws/build/test_gps/build
+[0.837s] creating /home/sebas/ros_ws/build/test_gps/build/lib
+[0.837s] creating /home/sebas/ros_ws/build/test_gps/build/lib/test_gps
+[0.837s] copying test_gps/test_gps.py -> /home/sebas/ros_ws/build/test_gps/build/lib/test_gps
+[0.837s] copying test_gps/check.py -> /home/sebas/ros_ws/build/test_gps/build/lib/test_gps
+[0.837s] copying test_gps/__init__.py -> /home/sebas/ros_ws/build/test_gps/build/lib/test_gps
+[0.838s] running install
+[0.838s] running install_lib
+[0.839s] creating /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps
+[0.840s] copying /home/sebas/ros_ws/build/test_gps/build/lib/test_gps/test_gps.py -> /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps
+[0.840s] copying /home/sebas/ros_ws/build/test_gps/build/lib/test_gps/check.py -> /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps
+[0.840s] copying /home/sebas/ros_ws/build/test_gps/build/lib/test_gps/__init__.py -> /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps
+[0.840s] byte-compiling /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps/test_gps.py to test_gps.cpython-310.pyc
+[0.841s] byte-compiling /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps/check.py to check.cpython-310.pyc
+[0.843s] byte-compiling /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps/__init__.py to __init__.cpython-310.pyc
+[0.843s] running install_data
+[0.843s] creating /home/sebas/ros_ws/install/test_gps/share/ament_index
+[0.843s] creating /home/sebas/ros_ws/install/test_gps/share/ament_index/resource_index
+[0.843s] creating /home/sebas/ros_ws/install/test_gps/share/ament_index/resource_index/packages
+[0.843s] copying resource/test_gps -> /home/sebas/ros_ws/install/test_gps/share/ament_index/resource_index/packages
+[0.843s] copying package.xml -> /home/sebas/ros_ws/install/test_gps/share/test_gps
+[0.844s] running install_egg_info
+[0.845s] Copying ../../../build/test_gps/test_gps.egg-info to /home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages/test_gps-0.0.0-py3.10.egg-info
+[0.846s] running install_scripts
+[0.867s] Installing check script to /home/sebas/ros_ws/install/test_gps/lib/test_gps
+[0.867s] Installing test_gps script to /home/sebas/ros_ws/install/test_gps/lib/test_gps
+[0.868s] writing list of installed files to '/home/sebas/ros_ws/build/test_gps/install.log'
+[0.893s] Invoked command in '/home/sebas/ros_ws/src/testing/test_gps' returned '0': AMENT_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/ros_ws/install/interfaces LD_LIBRARY_PATH=/home/sebas/ros_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/ros_ws/build/test_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/ros_ws/install/test_gps/lib/python3.10/site-packages:/home/sebas/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/test_gps build --build-base /home/sebas/ros_ws/build/test_gps/build install --record /home/sebas/ros_ws/build/test_gps/install.log --single-version-externally-managed install_data
